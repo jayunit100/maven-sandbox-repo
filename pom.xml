@@ -1,0 +1,10 @@
+<distributionManagement>
+	<repository>
+		<id>repo</id>
+		<url>https://github.com/jayunit100/maven-sandbox-repo/raw/master/releases</url>
+	</repository>
+	<snapshotRepository>
+		<id>snapshot-repo</id>
+		<url>https://github.com/jayunit100/maven-sandbox-repo/raw/master/sanpshots</url>
+	</snapshotRepository>
+</distributionManagement>

@@ -24,4 +24,5 @@ And then you can use the lovely RudolF Tree program to debug your big ugly hadoo
 	System.out.println(
 		PrintUtils.createFileTreeAsString(new File(System.getProperty("user.dir"))));
 
-Thanks to Mischat and Sid Kzisjdwlasdf for showing me how the tree command in unix works.
+Thanks to Mischat and Sid Kzisjdwlasdf for showing me how the tree command in unix works.  
+And of course, to peerindex for inspiring this project.

@@ -1,0 +1,27 @@
+This is a test repo for proof of concept that 
+we can easily deploy maven repos to github, and the repo
+works .  To test it out : 
+
+<!-- add this to your pom.xml file --> 
+
+<dependency>
+     <groupId>org.rudolf.utils</groupId>
+  	<artifactId>TPrintUtils</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+</dependencies>
+
+<!-- and again, make sure you point to this repository --> 
+<repositories>
+    <repository>
+        <id>org.rudolf.utils</id>
+        <url>https://github.com/jayunit100/maven-sandbox-repo/raw/master/snapshots</url>
+    </repository>
+</repositories>
+
+And then you can use the lovely RudolF Tree program to debug your big ugly hadoop directories!
+
+	System.out.println(
+		PrintUtils.createFileTreeAsString(new File(System.getProperty("user.dir"))));
+
+Thanks to Mischat and Sid Kzisjdwlasdf for showing me how the tree command in unix works.

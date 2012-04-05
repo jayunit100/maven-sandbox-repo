@@ -5,6 +5,6 @@
 	</repository>
 	<snapshotRepository>
 		<id>snapshot-repo</id>
-		<url>https://github.com/jayunit100/maven-sandbox-repo/raw/master/sanpshots</url>
+		<url>https://github.com/jayunit100/maven-sandbox-repo/raw/master/snapshots</url>
 	</snapshotRepository>
 </distributionManagement>
